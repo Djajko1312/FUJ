@@ -1,4 +1,4 @@
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollpos = window.pageYOffset;
   if (prevScrollpos > currentScrollpos) {
@@ -8,3 +8,13 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollpos;
 }
+
+
+
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbar = document.getElementById('nav-list')
+
+toggleButton.addEventListener('click', () => {
+  navbar.classList.toggle('active')
+})

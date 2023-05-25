@@ -29,11 +29,11 @@
 		<section id="home">
 			<h2>Welcome to Our Fitness Website</h2>
 			<p>We offer a wide range of fitness services to help you achieve your goals. Whether you're looking to lose weight, gain muscle, or simply improve your overall health, we have the expertise and equipment to help you succeed.</p>
-			<img src="slika1.jpg" alt="Fitness Image">
+			<img src="slika3.jpg" alt="Fitness Image">
 			<br>
 			<br>
 			
-			<button>Get Started</button>
+			<button id="myButton">Get Started</button>
 		</section>
 	
 		<section id="services">
@@ -69,5 +69,17 @@
 	<footer>
 		<p>Copyright © 2023 Djajko Fitness</p>
 	</footer>
-	<script src="java.js"></script>
+	<script src="java.js">
+  // Fetch the JSON data
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Access the data and perform operations
+      console.log(data.classes); // Example: Print all classes to the console
+      
+      // You can use the retrieved data to dynamically generate content on your website
+      // For example, loop through the classes and create HTML elements to display them
+    })
+    .catch(error => console.error('Error:', error));
+	</script>
 	</body>

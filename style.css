@@ -242,3 +242,21 @@ footer {
       display: flex;
   }
 }
+
+
+.volimmamu{
+padding: 60px 110px;
+background-color: #f1c40f;
+border: none;
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+text-transform: uppercase;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.volimbabu{
+color: #787ce5;
+}

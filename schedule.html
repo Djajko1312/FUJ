@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Djajko Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="navbar">
+		<nav class="navbar-links">
+			<div class="brand-title"></div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		  </a>
+		<h1>Djajko Fitness</h1>
+		<nav>
+			<ul id = "nav-list">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+    <section id="home">
+        <h2>Choose your preferred training program</h2>
+        <img src="joga.jpg" alt="Fitness Image">
+        <p class="volimbabu"><b>Yoga offers numerous benefits for both the body and the mind. Yoga incorporates breathing techniques and meditation, which can help calm the mind and reduce stress. It encourages relaxation and promotes a sense of inner peace. Regular practice of yoga can lead to improved mental well-being and a better ability to manage stress in daily life.</b> </p>
+        <button class="volimmamu">YOGA</button>
+        <br>
+        <br>
+        <img src="pilates.jpg" alt="Fitness Image">
+        <p class="volimbabu"><b>Training Pilates offers numerous benefits for the body and mind. Pilates exercises promote flexibility and lengthening of muscles while also toning them. The controlled and precise movements help to elongate muscles, improve joint mobility, and increase overall flexibility.</b></p>
+        <button class="volimmamu">PILATES</button>
+        <br>
+        <br>
+        <img src="zumba.jpg" alt="Fitness Image">
+        <p class="volimbabu"><b>Training Zumba offers several benefits for both the body and the mind. Zumba is a high-energy, dance-based workout that combines aerobic exercise with upbeat music and choreographed movements. It provides an effective cardiovascular workout that can increase your heart rate, improve endurance, and strengthen your cardiovascular system.</b></p>
+        <button class="volimmamu">ZUMBA</button>
+    </section>
+
+<br>
+<br>
+	<footer>
+		<p>Copyright © 2023 Djajko Fitness</p>
+	</footer>
+    <script src="java.js">
+        // Fetch the JSON data
+        fetch('data.json')
+          .then(response => response.json())
+          .then(data => {
+            // Access the data and perform operations
+            console.log(data.classes); // Example: Print all classes to the console
+            
+            // You can use the retrieved data to dynamically generate content on your website
+            // For example, loop through the classes and create HTML elements to display them
+          })
+          .catch(error => console.error('Error:', error));
+          </script>
+</body>
+</html>

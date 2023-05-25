@@ -1,0 +1,6 @@
+-Implementacija dugmeta za classes,trainers,schedules,da se upisuje u local storage (ako korisnik registruje termin kako treba),a da se obrise bilo šta iz local storage
+ako korisnik napusti registraciju u bilo kom trenutku na bilo koji nacin
+
+-Provera da li su svi podaci tacni/ako se sve poklapa, i ako jesu da se podaci iz local storage upisu u odgovarajuci .txt fajl (nakon uspesne registracije,brise sve iz local storage)
+
+-Implemetacija citanja i prikaza podataka iz .txt fajla, na odgovarajucoj stranici.

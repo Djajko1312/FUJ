@@ -11,10 +11,17 @@ window.onscroll = function() {
 
 
 
-
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbar = document.getElementById('nav-list')
 
 toggleButton.addEventListener('click', () => {
   navbar.classList.toggle('active')
 })
+
+
+
+//kodiranje
+
+document.getElementById("myButton").onclick = function () {
+  location.href = "schedule.html";
+};

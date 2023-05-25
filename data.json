@@ -1,0 +1,62 @@
+{
+    "classes": [
+      {
+        "name": "Yoga",
+        "description": "Relaxing yoga class for all levels",
+        "duration": "60 minutes",
+        "instructor": "John Doe"
+      },
+      {
+        "name": "Pilates",
+        "description": "Relaxing pilates class for all levels",
+        "duration": "90 minutes",
+        "instructor": "Heather Jones"
+      },
+      {
+        "name": "Zumba",
+        "description": "High-energy dance fitness class",
+        "duration": "45 minutes",
+        "instructor": "Jane Smith"
+      }
+    ],
+
+    "trainers": [
+      {
+        "name": "John Doe",
+        "specialization": "Yoga, Pilates",
+        "experience": "5 years"
+      },
+      {
+        "name": "Heather Jones",
+        "specialization": "Yoga, Zumba",
+        "experience": "4 years"
+      },
+
+      {
+        "name": "Jane Smith",
+        "specialization": "Zumba, Aerobics",
+        "experience": "3 years"
+      }
+    ],
+
+    "schedules": [
+      {
+        "class": "Yoga",
+        "instructor": "John Doe",
+        "date": "2023-05-30",
+        "time": "10:00 AM"
+      },
+      {
+        "class": "Pilates",
+        "instructor": "Heather Jones",
+        "date": "2023-05-30",
+        "time": "14:00 PM"
+      },
+      {
+        "class": "Zumba",
+        "instructor": "Jane Smith",
+        "date": "2023-05-31",
+        "time": "6:30 PM"
+      }
+    ]
+}
